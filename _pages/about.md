@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD Candidate in Theoretical Chemistry at **Brown University**, advised by [Prof. Brenda Rubenstein](https://www.brown.edu/academics/chemistry/people/brenda-rubenstein). My research targets the most critical bottleneck in modern computational chemistry: **scalability**.
 
-[cite_start]I develop novel quantum algorithms and machine learning techniques to simulate complex biological systems—from water networks to ATP hydrolysis [cite: 20]—on near-term and fault-tolerant quantum hardware.
+[cite_start]I develop novel quantum algorithms and machine learning techniques to simulate complex biological systems—from water networks to ATP hydrolysis [cite: 20]—on near-term quantum hardware.
 
 ### Why It Matters
 The pharmaceutical industry is racing to utilize quantum advantages for drug discovery, but current hardware capabilities are limited. [cite_start]My work focuses on **Resource Estimation** and **Active Space Methods** [cite: 11] to drastically reduce the computational cost of these simulations.
