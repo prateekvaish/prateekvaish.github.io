@@ -2,29 +2,34 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate at Brown University | Quantum Algorithms & Theoretical Chemistry
+subtitle: <a href='#'>PhD Candidate</a>. Building the algorithmic bridge between Quantum Hardware and Pharmaceutical breakthrough.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to a circle
+  image_circular: false # rigid, professional look
   address: >
     Department of Chemistry<br>
     Brown University<br>
-    Providence, RI [cite: 2]
+    Providence, RI
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD Candidate in Theoretical Chemistry at **Brown University**, advised by **Prof. [cite_start]Brenda Rubenstein**[cite: 5, 16]. [cite_start]My research focuses on the intersection of quantum chemistry and quantum computing, specifically developing algorithms to simulate molecular systems on quantum hardware[cite: 17].
+I am a PhD Candidate in Theoretical Chemistry at **Brown University**, advised by [Prof. Brenda Rubenstein](https://www.brown.edu/academics/chemistry/people/brenda-rubenstein). My research targets the most critical bottleneck in modern computational chemistry: **scalability**.
 
-[cite_start]Currently, I am working on **Active Space Unitary Coupled Cluster (UCC)** theory [cite: 17] [cite_start]and collaborating with teams from NASA and UIUC on resource estimation for simulating biology on fault-tolerant hardware[cite: 18].
+[cite_start]I develop novel quantum algorithms and machine learning techniques to simulate complex biological systems—from water networks to ATP hydrolysis [cite: 20]—on near-term and fault-tolerant quantum hardware.
 
-[cite_start]Prior to Brown, I completed my BS-MS Dual Degree in Chemical Sciences at **IISER Kolkata**, where I worked on quantum wave packet dynamics and potential energy surfaces[cite: 8, 27].
+### Why It Matters
+The pharmaceutical industry is racing to utilize quantum advantages for drug discovery, but current hardware capabilities are limited. [cite_start]My work focuses on **Resource Estimation** and **Active Space Methods** [cite: 11] to drastically reduce the computational cost of these simulations.
 
-### Research Interests
-* **Quantum Algorithms:** VQE, UCC, Active Space Methods [cite: 11]
-* [cite_start]**Machine Learning:** Gaussian Process Regression, Neural Networks for PES [cite: 14]
-* [cite_start]**Computational Chemistry:** Molecular Dynamics, PySCF, ORCA [cite: 12]
+### Key Contributions
+* [cite_start]**Algorithm Development:** Spearheaded the development of **Active Space Unitary Coupled Cluster (UCC)** theory, optimizing Hamiltonian reduction to make chemical simulations feasible on quantum devices[cite: 17].
+* [cite_start]**Hardware-Aware Benchmarking:** Collaborated with scientists from **NASA** and **UIUC** to estimate the precise fault-tolerant resource requirements for simulating biological systems[cite: 18].
+* [cite_start]**Machine Learning Integration:** Applied Transfer Learning and Neural Networks to accelerate Molecular Dynamics (MD) and Potential Energy Surface (PES) generation[cite: 20, 28].
+
+[cite_start]Prior to my PhD, I completed my BS-MS at **IISER Kolkata** (CGPA 9.13/10) [cite: 8, 9] [cite_start]and held research positions at **Queen's University, Canada** [cite: 29] [cite_start]and **NISER Bhubaneswar**[cite: 34].
+
+[cite_start]I am currently seeking R&D roles in **Quantum Applications** or **Computational Drug Discovery** where I can leverage my expertise in Python, Qiskit, and electronic structure theory[cite: 11, 13].

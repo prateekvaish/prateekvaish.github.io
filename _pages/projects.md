@@ -1,65 +1,34 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Open source tools and software for Quantum Chemistry.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+order: 2
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+My technical work focuses on building robust Python/Fortran tools that bridge the gap between theoretical models and practical implementation.
 
-{% else %}
+### Quantum Software
 
-<!-- Display projects without categories -->
+#### [Active Space UCC & Resource Estimation]
+* **Stack:** Python, Qiskit, PySCF
+* **Description:** Developed novel Active Space Unitary Coupled Cluster (UCC) methods to simulate molecular systems. [cite_start]This work is critical for reducing the qubit and gate count required for near-term quantum chemistry[cite: 17].
+* [cite_start]**Impact:** Used to provide critical resource benchmarks for simulating biology on future fault-tolerant hardware in collaboration with NASA[cite: 18].
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+#### [UCCSD(4)]
+* **Stack:** Python, NumPy
+* **Link:** [github.com/prateekvaish](https://github.com/prateekvaish)
+* [cite_start]**Description:** Implementation of Unitary Coupled Cluster Singles and Doubles for classical hardware benchmarks[cite: 72]. Used to validate quantum results against classical limits.
 
-  <!-- Generate cards for each project -->
+### Machine Learning & Dynamics
 
-{% if page.horizontal %}
+#### [FT-RHF (Finite-Temperature Restricted Hartree-Fock)]
+* **Stack:** Python, Github
+* **Link:** [github.com/prateekvaish/FT-RHF](https://github.com/prateekvaish/FT-RHF)
+* [cite_start]**Description:** A custom code for Finite-Temperature RHF calculations[cite: 72]. Finite temperature methods are essential for capturing the realistic behavior of biological systems in pharma applications.
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+#### [Scalable Gaussian Process Regression]
+* **Stack:** Python, Fortran90
+* [cite_start]**Description:** Developed a numpy variant of GPR using CUR decomposition for approximate inverse covariance matrices[cite: 30].
+* [cite_start]**Application:** Enabled the fitting of Formaldehyde Potential Energy Surfaces (PES) and resolved numerical stability issues for $$He-F_{2}$$ systems[cite: 36].

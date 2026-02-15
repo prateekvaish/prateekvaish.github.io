@@ -1,15 +1,19 @@
 ---
 layout: page
+title: Teaching
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Academic instruction and research mentorship.
 nav: true
-nav_order: 6
-calendar: true
+order: 3
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+### Instructor of Record
+**Statistical Mechanics (CHEM 2020)** | *Brown University, Spring 2026*
+* [cite_start]Lead Instructor for a core graduate course for 1st-year PhD students[cite: 55].
+* [cite_start]Designed the entire curriculum, including lectures on ensembles, partition functions, and thermodynamics[cite: 56].
+* *Relevance to Industry:* Demonstrated ability to distill complex statistical theories into actionable knowledge for advanced learners.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
-
-{% include courses.liquid %}
+### Mentorship
+**Research Mentor** | *Brown University, 2021 - Present*
+* [cite_start]Mentored 10+ undergraduate and high school students in computational chemistry research[cite: 59].
+* Guided students through Python programming, simulation setup, and data analysis.
